@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-image: url('../img/Pizza.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+ /* MENU */
+
+.menu {
+    text-align: center;
+    border: 0px solid black;
+    padding: 15px 30px;
+    height: 250px;
+    width: 50em;
+    border-radius: 30px;
+    background-color: #FFE4C4;
+    opacity: 0.9;
+    box-shadow: 15px 15px 30px #000000,
+    -15px -15px 30px #000000;
+
+}
+
+h1 {
+    font-size: 50px;
+    opacity: 1;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 5em;
+}
+
+.menu ul li {
+
+    padding: 15px 20px;
+    margin-left: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    color: black;
+}
+
+.menu a:hover {
+    letter-spacing: 3px;
+    background-color:orange;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(255, 165, 0) 0px 7px 29px 0px; 
+}
+
+.menu a:active {
+    letter-spacing: 3px;
+    background-color: orange;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(255, 165, 0) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+ /* MENU */
